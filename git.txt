@@ -1,0 +1,12 @@
+Une fois que vous avez cloner votre répertoire(dépot) sur github, vous devez liez votre machine avec votre compte github,
+Pour se faire tapez les commandes suivantes, après avoir ouvert un terminal ou invite de commande sur le repertoire que 
+vous venez de cloner : 
+git config --global user.email "Votre addresse email"
+git config --global user.username "Votre nom d'utilisateur"
+
+Pour Pusher, tapez les commandes suivantes : 
+git add nomdufichier
+git commit -m "Description"
+git push
+A cette étape, si ça marche pas, Regardez votre navigateur, peut etre il vous demande de se connecter avec votre navigateur
+afin qu'il s'assure que c'est toi.
