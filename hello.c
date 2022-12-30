@@ -1,8 +1,4 @@
-#include <stdio.h>
-
-void PrintChar(char c){
-    printf("%c", c);
-}
+#include "library/lib.h"
 
 int main(){
 
