@@ -5,5 +5,6 @@
 
 void NextLine();
 void PrintChar(char);
+void PrintString(char []);
 
 #endif

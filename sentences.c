@@ -1,23 +1,41 @@
-#include "library/lib.h"
+#include <stdio.h>
 
-int main(){
-    char str[100];
+void PrintChar(char c){
+    printf("%c", c);
+}
 
-    char message[50] = "Please Enter a sentences : ";
-    NextLine();
-    
-    for (int i = 0; message[i] != '\0'; i++)
-    {
-        PrintChar(message[i]);
-    }
+void NextLine(){
+    printf("\n");
+}
 
-    fgets(str, 100, stdin);
-
-    NextLine();
-
+void PrintString(char str[]){
     for (int i = 0; str[i] != '\0'; i++)
     {
         PrintChar(str[i]);
     }
     
+}
+
+int main(){
+    char str[100];
+
+    char message[50] = "Please Enter a sentences : ";
+    char output[50] = "Your message is : ";
+    NextLine();
+
+    PrintString(message);
+
+    NextLine();
+    
+    fgets(str, 100, stdin);
+
+    NextLine();
+
+    PrintString(output);
+
+    NextLine();
+
+    PrintString(str);
+    
+
 }

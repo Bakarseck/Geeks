@@ -7,3 +7,10 @@ void PrintChar(char c){
 void NextLine(){
     printf("\n");
 }
+
+void PrintString(char str[]){
+    for (int i = 0; str[i] != '\0'; i++)
+    {
+        PrintChar(str[i]);
+    }
+}
