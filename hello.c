@@ -2,7 +2,7 @@
 
 int main(){
 
-    char chaine[25] = "Hello World";
+    char chaine[25] = "Hello World !";
     int i = 0;
 
     while (chaine[i] != '\0')
