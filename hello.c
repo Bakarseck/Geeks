@@ -14,6 +14,8 @@ int main(){
         PrintChar(chaine[i]);
         i++;
     }
+
+    NextLine();
     
     return 0;
 }
