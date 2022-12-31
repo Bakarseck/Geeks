@@ -1,9 +1,9 @@
-#include <stdio.h>
+// #include <stdio.h>
 
 
 //Affiche une seule caractère
 void PrintChar(char c){
-    printf("%c", c);
+    putchar(c);
 }
 
 //Converti une chaine de caractère en nombre
@@ -57,8 +57,8 @@ char *Strcat(char *destination, char *source){
 }
 
 //Compte le nombre de caractère présents dans une chaîne de caractère
-size_t Strlen(char str[]){
-    size_t i=0;
+int Strlen(char str[]){
+    int i=0;
     while (str[i] != '\0')
     {
         i++;
@@ -82,7 +82,7 @@ int Strcmp(char *chaine1, char *chaine2){
 //Copie la chaîne source à la destination
 char *Strcpy(char *destination, char *source)
 {
-    size_t i;
+    int i;
 
     for (i = 0; source[i] != '\0'; ++i)
         destination[i] = source[i];

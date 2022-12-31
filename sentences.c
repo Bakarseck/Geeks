@@ -1,11 +1,11 @@
-#include <stdio.h>
+// #include <stdio.h>
 
 void PrintChar(char c){
-    printf("%c", c);
+    putchar(c);
 }
 
 void NextLine(){
-    printf("\n");
+    PrintChar(10);
 }
 
 void PrintString(char str[]){
@@ -27,7 +27,7 @@ int main(){
 
     NextLine();
     
-    fgets(str, 100, stdin);
+    // fgets(str, 100, stdin);
 
     NextLine();
 
