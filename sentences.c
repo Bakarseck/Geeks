@@ -36,6 +36,4 @@ int main(){
     NextLine();
 
     PrintString(str);
-    
-
 }
