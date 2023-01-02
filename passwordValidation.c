@@ -1,4 +1,4 @@
-#include<stdio.h>
+// #include<stdio.h>
 
 void PrintChar(char c){
     putchar(c);
