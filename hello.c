@@ -1,4 +1,4 @@
-// #include<stdio.h>
+#include<stdio.h>
 
 void PrintChar(char c){
     putchar(c);
@@ -23,6 +23,7 @@ int main(){
    
     NextLine();
     PrintString(chaine);
+    // PrintNbr(10);
     
     return 0;
 }
