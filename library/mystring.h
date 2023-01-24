@@ -1,10 +1,8 @@
-// #include <stdio.h>
+#ifndef MYSTRING
+#define MYSTRING
+#include <stdio.h>
+#include "lib/lib.h"
 
-
-//Affiche une seule caractère
-void PrintChar(char c){
-    putchar(c);
-}
 
 //Converti une chaine de caractère en nombre
 int Atoi(char *str){
@@ -17,21 +15,6 @@ int Atoi(char *str){
         } 
     }
     return num;
-}
-
-//Affiche un retour à la ligne
-void NextLine(){
-    PrintChar(10);
-}
-
-//Affiche une chaîne de caractère
-void PrintString(char *str){
-    int i = 0;
-    while (str[i] != '\0')
-    {
-        PrintChar(str[i]); 
-        i++;
-    }
 }
 
 //Ajoute la chaîne source à celle de la destination
@@ -91,16 +74,4 @@ char *Strcpy(char *destination, char *source)
     return destination;
 }
 
-//Affiche un nombre
-void PrintNbr(int n){
-    int i, j, tab[10];
-    for (i = 0; n != 0 ; i++)
-    {
-        tab[i] = n % 10 ; 
-        n = n / 10;
-    }
-    for (j = i - 1 ;  j >= 0 ; j--)
-    {
-        PrintChar(tab[j] + '0');
-    }
-}
+#endif
