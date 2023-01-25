@@ -1,6 +1,7 @@
 #ifndef LIB_H
 #define LIB_H
-
+#define TAILLE_MAX 1000
+#include <stdlib.h>
 #include <stdio.h>
 
 void Tabulation() {
@@ -56,10 +57,6 @@ void PrintDouble(double d) {
 
     PrintChar('.');
 
-}
-
-double gain(double code, int nbJours, int mise ) {
-    return PowD(code, nbJours) * mise;
 }
 
 void decoupeMinutes(int *heures, int *minutes)
