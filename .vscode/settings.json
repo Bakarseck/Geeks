@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "remove.C": "cpp"
+        "remove.C": "cpp",
+        "pile.C": "cpp"
     }
 }
