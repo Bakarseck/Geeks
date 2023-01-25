@@ -1,7 +1,7 @@
 #ifndef MYSTRING
 #define MYSTRING
 #include <stdio.h>
-#include "lib/lib.h"
+#include "lib.h"
 
 
 //Converti une chaine de caractère en nombre

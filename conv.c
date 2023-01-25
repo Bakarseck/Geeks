@@ -67,7 +67,7 @@ int main () {
             	  nbrAConvertir = nbrAConvertir / 2;
             	}
             
-                printf ("\nLe nombre binaire est = ");
+              printf ("\nLe nombre binaire est = ");
             
                 for (i = i - 1; i >= 0; i--)
             	{
