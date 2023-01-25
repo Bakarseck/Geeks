@@ -3,6 +3,7 @@
 #define TAILLE_MAX 1000
 #include <stdlib.h>
 #include <stdio.h>
+#include <ctype.h>
 
 void Tabulation() {
     putchar('\t');
