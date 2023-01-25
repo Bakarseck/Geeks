@@ -60,15 +60,5 @@ void PrintDouble(double d) {
 
 }
 
-void decoupeMinutes(int *heures, int *minutes)
-{
-    *heures = *minutes / 60;  // 90 / 60 = 1
-    *minutes = *minutes % 60; // 90 % 60 = 30
-
-    PrintString("Il est : ");
-    PrintIntegers(*heures);
-    PrintString(" h ");
-    PrintIntegers(*minutes);
-}
 
 #endif
