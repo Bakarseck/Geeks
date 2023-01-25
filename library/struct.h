@@ -21,8 +21,8 @@ typedef struct Personne Personne;
 
 void initialiserCoordonnees(Point* point1)
 {
-    *point1->x = 0;
-    *point1->y = 0;
+    (*point1).x = 0;
+    (*point1).y = 0;
 }
 
 #endif

@@ -31,6 +31,21 @@ double PowD(double nombreAElever, int puissance ){
   return result; 
 }
 
+int SqrtI(int n) {
+    int r;
+    for (int i = 1; i <= n / i; i++)
+    {
+      r = n / i ;
+    }
+    if (PowI(r, 2) == n)
+    {
+      return r;
+    }
+    else {
+      return 0;
+    } 
+}
+
 int max(int t[], int n) {
     InsertSort(t, n);
     return t[n-1];
