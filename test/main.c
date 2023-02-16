@@ -3,8 +3,40 @@
 #include "../library/sort.h"
 #include "../library/struct.h"
 
+void ValSup(int t1[], int t2[], float m) {
+    int j = 0;
+    for (int i = 0; i < 10; i++)
+    {
+        if (t1[i] > (int)m) {
+            t2[j] = t1[i];
+            j++;
+        }
+    }
+    
+}
 
-int main(int numberOfArguments, char** arguments) {
-    PrintIntegers(SqrtI(atoi(arguments[1])));
-    NextLine();
+
+int main() {
+
+    int diviseurCommun ;
+
+    diviseurCommun = PPCM(25, 45) ;
+
+    // PrintIntegers(diviseurCommun) ;
+
+    int t[10] ;
+    int n = 10;
+    for (int i = 0; i < n; i++)
+    {
+        t[i] = 10 - i ;
+    }
+
+    PrintTable(t, n) ;
+    NextLine() ;
+    InsertSort(t, n);
+    PrintTable(t, n);
+    
+    return 0;
+
+    
 }

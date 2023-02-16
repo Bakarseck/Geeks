@@ -3,6 +3,24 @@
 #include "lib.h"
 #include "sort.h"
 
+int PPCM(int a, int b) {
+  int plusPetit = a, diviseurCommun;
+  if (a > b)
+  {
+    plusPetit = b;
+  }
+
+  for (int i = 1; i <= plusPetit; i++)
+  {
+    if ( a % i == 0 && b % i == 0)
+    {
+      diviseurCommun = i ;
+    }
+  }
+
+  return diviseurCommun ;
+}
+
 int PowI(int nombreAElever, int puissance ){
   int result=1;
   if (puissance == 0)
@@ -55,7 +73,7 @@ int min(int t[], int n) {
   return t[0];
 }
 
-void PrintTable(int t[], int n) {
+void PrintTable(int *t, int n) {
     for (int i = 0; i < n; i++)
     {
         PrintIntegers(t[i]);

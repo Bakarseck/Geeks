@@ -1,5 +1,4 @@
 #include <stdio.h>
-// #include<math.h>
 
 int Pow(int nombreAElever, int puissance ){
   int result=1;
