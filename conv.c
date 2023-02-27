@@ -60,7 +60,7 @@ int main () {
             break;
 
             case 10:
-                for (i = 0; nbrAConvertir > 0; i++)
+              for (i = 0; nbrAConvertir > 0; i++)
             	{
             	  tab[i] = nbrAConvertir % 2;
             	  nbrAConvertir = nbrAConvertir / 2;

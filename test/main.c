@@ -23,12 +23,11 @@ int main() {
     diviseurCommun = PPCM(25, 45) ;
 
     // PrintIntegers(diviseurCommun) ;
-
-    int t[10] ;
     int n = 10;
+    int t[n] ;
     for (int i = 0; i < n; i++)
     {
-        t[i] = 10 - i ;
+        t[i] = n - i ;
     }
 
     PrintTable(t, n) ;
