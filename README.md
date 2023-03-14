@@ -1,1 +1,1 @@
-# Geeks
+This repository is for training my skills programmation in language C
